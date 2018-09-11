@@ -18,9 +18,9 @@
 let fibonacci = (num) => {
 	var arr = []
 	if(num == 1) {
-		return [0]
+		return [1]
 	} else if(num == 2) {
-		return [0, 1]
+		return [1, 1]
 	} else if(num > 2) {
 		arr.push(0, 1)
 		for(var i = 2; i < num; i++) {
