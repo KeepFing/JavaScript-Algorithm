@@ -1,4 +1,13 @@
 /*
+ * @version: 1.0
+ * @Description: description
+ * @Author: WangWen
+ * @LastEditors: WangWen
+ * @email: bear393048@163.com
+ * @Date: 2019-04-19 08:57:05
+ * @LastEditTime: 2019-04-19 09:01:28
+ */
+/*
  * 数组的十大排序算法
  * 
  * */
@@ -199,7 +208,7 @@ var len;    //因为声明的多个函数都需要数据长度，所以把len设
 
 let buildMaxHeap = (arr) => {   //建立大顶堆
     len = arr.length;
-    for (var i = Math.floor(len/2); i &gt;= 0; i--) {
+    for (var i = Math.floor(len/2); i >= 0; i--) {
         heapify(arr, i);
     }
 }
